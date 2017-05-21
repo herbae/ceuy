@@ -3,7 +3,7 @@
 
     var app = angular.module('app', []);
 
-    app.controller('ctrl', ['$scope', function($scope){
+    app.controller('ctrl', ['$scope', '$http', function($scope, $http){
         $scope.mostrarPontoMainha = function(ponto) {
             $scope.pontoMainha = {
                 letra: "Olha a  letra do ponto aí!",
@@ -17,7 +17,10 @@
             {titulo: 'Oxala Criou a Terra Oxala criou o mar'}
         ]
         
-        $scope.hierarquia = ['Pré Médium', 'Mão de Pemba', 'Mão de Santo', 'Iaworixalá', 'Mão de Fogo', 'Mão de Faca', 'Bori']
+        $http.get('rest/phpinfo.php');
+        $http.get('rest/obrigacoes.php');
+
+        $scope.hierarquia = ['Pré Médium', 'Mão de Pemba', 'Mão de Santo', 'Iaworixalá', 'Mão de Fogo', 'Mão de Faca', 'Bori'];
 
         $scope.pontosMainha = [
             {
