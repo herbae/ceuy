@@ -10,10 +10,7 @@
   "author": "Iury Lazoski / Rodrigo Martins",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.6.4",
-    "express": "^4.15.2",
-    "gulp": "^3.9.1",
-    "node-php": "0.0.1"
+    "angular": "^1.6.4"
   },
   "repository": {
     "type": "git",
