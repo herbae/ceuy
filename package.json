@@ -1,0 +1,22 @@
+{
+  "name": "ceuy",
+  "version": "1.0.0",
+  "description": "Um site para uso dos membros e visitantes do Centro Espirita de Umbanda Yguaocara",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Iury Lazoski / Rodrigo Martins",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "node-php": "0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herbae/ceuy.git"
+  }
+}
